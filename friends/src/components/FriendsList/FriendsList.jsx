@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './FriendsList.scss';
+
 function FriendsList(props) {
   return (
     <div className='friends-list-wrapper'>
