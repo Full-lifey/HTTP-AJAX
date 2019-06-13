@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import './FriendsList.scss';
 function FriendsList(props) {
-  console.log(props);
   return (
     <div className='friends-list-wrapper'>
       {props.friends.map(friend => {
