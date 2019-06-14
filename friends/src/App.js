@@ -70,7 +70,9 @@ class App extends React.Component {
         <div className='navbar-wrapper'>
           <ul className='navbar'>
             <li>
-              <NavLink to='/'>Home</NavLink>
+              <NavLink exact to='/'>
+                Home
+              </NavLink>
             </li>
             <li>
               <NavLink to='/friends'>Friends</NavLink>

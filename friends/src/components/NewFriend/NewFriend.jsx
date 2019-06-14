@@ -37,12 +37,14 @@ class NewFriend extends React.Component {
     return (
       <form onSubmit={this.addFriend}>
         <input
+          type='text'
           placeholder='Name'
           value={this.state.friend.name}
           onChange={this.handleChanges}
           name='name'
         />
         <input
+          type='number'
           placeholder='Age'
           value={this.state.friend.age}
           onChange={this.handleChanges}
