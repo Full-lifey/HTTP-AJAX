@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.navbar-wrapper {
+  width: 100%;
+  background: darkslategray;
+  height: 100px;
+  .navbar {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: space-around;
+    list-style-type: none;
+    li {
+      height: 100px;
+      width: 150px;
+      font-size: 25px;
+      a {
+        text-decoration: none;
+        color: white;
+        line-height: 100px;
+      }
+      .active {
+        background: darkblue;
+      }
+    }
+  }
+}

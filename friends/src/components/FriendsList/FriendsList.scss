@@ -1,0 +1,11 @@
+.friends-list-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+
+  .friend-card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid black;
+    text-decoration: none;
+  }
+}
